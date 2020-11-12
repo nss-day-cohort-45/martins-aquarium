@@ -1,0 +1,55 @@
+header {
+  display: flex;
+}
+
+.logo {
+  height: 8em;
+}
+
+.content {
+  display: flex;
+}
+
+.fishList {
+  border: 3px dotted forestgreen;
+}
+
+.quotes {
+  border: 3px dotted goldenrod;
+}
+
+.locations {
+  border: 3px dotted lightcoral;
+}
+
+.tankTips {
+  border: 3px dotted dodgerblue;
+}
+
+.container {
+  border: 1px solid green;
+}
+
+.container--left {
+  flex: 3;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.container--right {
+  flex: 1
+}
+
+.fish__image {
+  height: 8em;
+}
+
+.location__image {
+  height: 8em;
+}
+
+.container--left article {
+  margin-bottom: 25px;
+}
