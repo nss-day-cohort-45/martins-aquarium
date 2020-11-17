@@ -2,10 +2,6 @@ header {
   display: flex;
 }
 
-body {
-  background-color: red;
-}
-
 .logo {
   height: 8em;
 }
